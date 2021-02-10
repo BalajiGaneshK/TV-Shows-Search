@@ -1,0 +1,102 @@
+.cont-style {
+    background-color: white;
+    /*background-color: #ffd018;*/
+}
+
+.searchBar {
+
+    margin-top: 3%;
+    margin-left: 24%;
+    border: solid 10px solid black;
+    padding: 2%;
+    /*background-image: url(./images/doodles.jpg);*/
+    border: 0.1vw solid black;
+    background-color: black;
+    border-radius: 5%;
+}
+
+@media (min-width:200px) and (max-width:768px) {
+    .logo {
+
+        margin-left: 12%;
+        margin-top: 5%;
+        height: 70%;
+        width: 70%;
+
+    }
+
+    .searchText {
+        font-family: 'Acme';
+        font-weight: 1000;
+        font-size: 0.7rem;
+        color:yellow;
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .logo {
+        margin-left: 19%;
+        margin-top: 5%;
+        height: 65%;
+        width: 65%;
+
+    }
+
+    .searchText {
+        font-family:  'Acme';
+        font-weight: 1000;
+        font-size: 0.8rem;
+        color:yellow;
+    }
+
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .logo {
+        margin-left: 26%;
+        margin-top: 5%;
+        height: 70%;
+        width: 70%;
+
+    }
+
+    .searchText {
+       font-family: 'Acme';
+        font-weight: 1000;
+        font-size: 1rem;
+        color:yellow;
+    }
+
+
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    .logo {
+        margin-left: 30%;
+        margin-top: 5%;
+        height: 80%;
+        width: 80%;
+
+    }
+
+    .searchText {
+        font-family: 'Acme';
+        font-weight: 1000;
+        font-size: 1rem;
+        color:yellow;
+    }
+
+
+}
+
+
+
+/*.logo {
+
+     margin-left: 22vw;
+     width:fit-content;
+
+ } */
