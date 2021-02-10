@@ -1,7 +1,7 @@
 //Fetching Show Details from API
 async function getTVShowDetails(search) {
     
-    let url = "http://api.tvmaze.com/search/shows?q=" + search;
+    let url = "https://api.tvmaze.com/search/shows?q=" + search;
     let response = await fetch(url);
     let data = await response.json();
     return data ;
